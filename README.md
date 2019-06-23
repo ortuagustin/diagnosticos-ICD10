@@ -1,6 +1,6 @@
 # Hospital Español - Estandar ICD-10
 
-Frontend para búsqueda de diagnosticos según el estandar ICD-10](https://en.wikipedia.org/wiki/ICD-10)
+Frontend para búsqueda de diagnosticos según el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10)
 
 ## Requisitos
 

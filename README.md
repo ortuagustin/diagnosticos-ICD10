@@ -1,6 +1,7 @@
 # Hospital Español - Estandar ICD-10
 
-Frontend para búsqueda de diagnosticos según el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10)
+* Frontend desarrollado con [VueJS](https://vuejs.org/) para búsqueda de diagnosticos según el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10). 
+* Este proyecto consume la API REST que expone el proyecto [ICD-10](https://github.com/ortuagustin/ICD10). 
 
 ## Requisitos
 
@@ -51,6 +52,8 @@ Para correr la aplicación con *docker*:
   sudo service docker start
 ```
 
+4. Levantar el proyecto [ICD-10](https://github.com/ortuagustin/ICD10)
+
 ### Correr la aplicación
 
 1. Clonar el repositorio.
@@ -68,3 +71,12 @@ Para correr la aplicación con *docker*:
 ```
 
 3. La aplicación deberia poder accederse desde [http://localhost:8080/](http://localhost:8080/)
+4. Se asume que el proyecto [ICD-10](https://github.com/ortuagustin/ICD10) está corriendo con los valores por defecto; se puede cambiar la URL de la API REST modificando la variable de entorno `VUE_APP_ELASTIC_URL`
+  * Se puede setear la variable de entorno a nivel sistema, o se puede utilizar los archivos `.env` [como propone la documentación de Vue](https://cli.vuejs.org/guide/mode-and-env.html#environment-variables)
+  * Crear (**si no existe**), un archivo `.env.local` en la raiz del proyecto con el siguiente contenido:
+  
+  ```env
+    VUE_APP_ELASTIC_URL = URL a ElasticSearch
+  ```
+  
+  * Tomar como ejemplo los archivos [.env.production](.env.production) y [.env.development](.env.development)

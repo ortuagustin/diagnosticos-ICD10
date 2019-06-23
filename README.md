@@ -1,6 +1,6 @@
 # Hospital Español - Estandar ICD-10
 
-* Frontend desarrollado con [VueJS](https://vuejs.org/) para búsqueda de diagnosticos según el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10). 
+* Aplicación web desarrolladoa con [VueJS](https://vuejs.org/) para búsqueda de diagnosticos según el estandar [ICD-10](https://en.wikipedia.org/wiki/ICD-10). 
 * Este proyecto consume la API REST que expone el proyecto [ICD-10](https://github.com/ortuagustin/ICD10). 
 
 ## Requisitos
